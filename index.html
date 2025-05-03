@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive To-Do App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+  <!-- Full Navbar -->
+  <header class="navbar">
+    <div class="navbar-left">
+      <img src="https://static.vecteezy.com/system/resources/thumbnails/011/385/199/small/to-do-list-flat-icon-free-vector.jpg" alt="Logo" />
+      <span>To Do Web Application</span>
+    </div>
+    <nav class="navbar-right">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Centered To-Do App -->
+  <main class="main-content">
+    <div class="todo-box">
+      <h2>📝 To-Do List</h2>
+      <div class="todo-form">
+        <input type="text" id="taskInput" placeholder="Enter a task..." />
+        <button onclick="addTask()">Add</button>
+      </div>
+      <ul id="taskList"></ul>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
